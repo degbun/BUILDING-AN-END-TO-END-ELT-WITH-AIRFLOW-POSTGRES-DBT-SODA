@@ -1,0 +1,7 @@
+name: 'online_retail'
+
+profile: 'online_retail'
+
+models:
+  online_retail:
+    materialized: table

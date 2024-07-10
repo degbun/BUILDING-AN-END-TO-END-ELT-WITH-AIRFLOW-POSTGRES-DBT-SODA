@@ -1,0 +1,14 @@
+online_retail:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres2
+      user: josue
+      password: josue
+      port: 5432
+      dbname: josue
+      schema: public
+      threads: 3
+      keepalives_idle: 0 
+      timeout_seconds : 300

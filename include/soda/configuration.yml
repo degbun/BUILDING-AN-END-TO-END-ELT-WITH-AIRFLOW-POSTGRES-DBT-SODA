@@ -1,0 +1,13 @@
+data_source online_retail:
+   type: postgres
+   host: postgres2
+   port : 5432
+   username: josue
+   password: josue
+   database: josue
+   schema: public
+
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: 121ae01e-0c3b-435a-85e3-e6aebc55fda3
+  api_key_secret: ocGmaNN6gKPkpaxRCTRs522M-Tdr4MaHQpT5Ep434cFHg0kDTtOL-Q

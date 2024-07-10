@@ -1,0 +1,11 @@
+# sources.yml
+version: 2
+
+sources:
+  - name: online_retail
+    database: josue # Put the project id!
+
+    tables:
+    - name: sales
+    - name: country
+  

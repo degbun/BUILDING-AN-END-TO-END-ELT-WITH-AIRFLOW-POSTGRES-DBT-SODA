@@ -1,0 +1,18 @@
+checks for sales:
+  - schema:
+      fail:
+        when required column missing: [invoice, stockcode,description, quantity, invoicedate, price, customerid, country]
+        when wrong column type:
+
+          invoice: character varying
+          stockcode: character varying
+          quantity: integer
+          invoicedate: TIMESTAMP
+          price: numeric
+          customerid: numeric
+          country: character varying
+        
+       
+
+
+ 
